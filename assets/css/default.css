@@ -1,0 +1,117 @@
+.container {
+	width: 100%;
+}
+
+.footer {
+	margin: 15px;
+}
+.facs-button-active {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+.facs-button-active:hover,
+.facs-button-active:focus,
+.facs-button-active.focus,
+.facs-button-active:active,
+.facs-button-active.active,
+.open > .dropdown-toggle.facs-button-active {
+	color: #fff;
+	background-color: #286090;
+	border-color: #204d74;
+}
+.facs-button-active:active,
+.facs-button-active.active,
+.open > .dropdown-toggle.facs-button-active {
+	background-image: none;
+}
+.facs-button-active.disabled,
+.facs-button-active[disabled],
+fieldset[disabled] .facs-button-active,
+.facs-button-active.disabled:hover,
+.facs-button-active[disabled]:hover,
+fieldset[disabled] .facs-button-active:hover,
+.facs-button-active.disabled:focus,
+.facs-button-active[disabled]:focus,
+fieldset[disabled] .facs-button-active:focus,
+.facs-button-active.disabled.focus,
+.facs-button-active[disabled].focus,
+fieldset[disabled] .facs-button-active.focus,
+.facs-button-active.disabled:active,
+.facs-button-active[disabled]:active,
+fieldset[disabled] .facs-button-active:active,
+.facs-button-active.disabled.active,
+.facs-button-active[disabled].active,
+fieldset[disabled] .facs-button-active.active {
+	background-color: grey;
+	border-color: #2e6da4;
+}
+
+.facs-button-active disabled {
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+
+.facs-box {
+	display: inline-block;
+	overflow-y: auto;
+	height: 450px;
+	background-color: #0088cc;
+	width: 25%;
+	border: 5px black solid;
+}
+
+.table {
+	width: 100%;
+}
+
+.facs-item {
+	padding: 15px;
+	margin: 40px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #f5f5f5;
+}
+
+.facs-item.clicked {
+	border: 2px solid red;
+}
+
+#deletedItemsContainer {
+	background-color: #d9534f;
+	margin-left: 15px;
+}
+
+.facs-item:hover,
+.facs-item:focus,
+.facs-item.focus,
+.facs-item:active,
+.facs-item.active,
+.open > .dropdown-toggle.facs-item {
+	color: #fff;
+	background-color: #286090;
+	border-color: #000000;
+}
+
+.facs-item-selected {
+
+}
